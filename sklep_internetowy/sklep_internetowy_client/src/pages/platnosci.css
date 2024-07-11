@@ -1,0 +1,94 @@
+.body-platnosci{
+    display: center;
+}
+
+.platnsoci-calosc{
+    display: flex;
+    justify-content: center;
+}
+
+.platnosci-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.platnosci-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.platnosci-header {
+    text-align: center;
+}
+
+.platnosci-form-group {
+    margin-bottom: 15px;
+}
+
+.platnosci-description {
+    text-align: center;
+}
+
+
+
+.platnosci-input,
+.platnosci-select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.platnosci-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.platnosci-radio-group label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.platnosci-radio-group input[type="radio"] {
+    display: none;
+}
+
+.platnosci-radio-group input[type="radio"]:checked + label {
+    background-color: rgb(14, 162, 211);
+    color: #fff;
+    border-color: rgb(14, 162, 211);
+}
+
+.platnosci-radio-group label:hover {
+    background-color: #f0f0f0;
+}
+

@@ -1,0 +1,117 @@
+/*main App*/
+.App {
+  text-align: center;
+  
+}  
+
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 20px;
+}
+
+
+.App-body{
+  min-height: 800px;
+  background-color: aliceblue;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}  
+
+.App-footer{
+  background-color: rgb(186, 207, 219);
+  height: 70px;
+  width: 60%;
+  text-align: center;
+  color: darkslategrey;
+  padding-top: 30px;
+  position: relative;
+  left: 20%;
+}  
+
+/*Navigation */
+.App-navigation{
+  background: white;
+  height: 100px;
+  width: 60%;
+  display: flex;
+  position: relative;
+  left: 20%;
+}  
+
+.Navigation-button{
+  height: 4em;
+  width: 8em;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  padding: 4px 4px;
+  position: relative;
+  top:1em;
+}  
+
+.Navigation-button:hover{
+  background-color: brown;
+}  
+
+.Navigation-div-buttons{
+  width: 35%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}  
+
+.Navigation-div{
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}  
+
+
+/*main */
+.App-main{
+  display: flex;
+}
+.Main-placeholder-div{
+  background-color: lightblue;
+  width: 20%;
+}
+.Main-sitebody-div{
+  width: 60%;
+}
+
+.Main-div-search{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(74, 200, 241);
+}  
+
+.Main-search-bar{
+  position: relative;
+  width:30em;
+  height: 50%;
+  top: 20%;
+  left: 10%;
+}  
+
+.Main-search-button{
+  position: relative;
+  border-radius: 8px;
+  left: 12%;
+}  
+
+.Main-div-filter{
+  width: 20%;
+  height: 800px;
+  position: relative;
+  background-color:lightblue;
+
+}  
+

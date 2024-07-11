@@ -1,0 +1,65 @@
+#slider img{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+
+#przyciski{
+    margin-left: 6%;
+}
+.ustaw {
+    width: 3.5%; 
+    margin-top: 5px; 
+    box-shadow: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#slajder{
+    display:flex;
+}
+.nowosci, .oferty-specjalne, .porady-techniczne
+{
+    margin-left: 30px;
+}
+.o-nas{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.gruby
+{
+    font-weight: bold;
+}
+
+#przerwa{
+    margin-top: 80px;
+}
+.nowosci p, .o-nas p, .oferty-specjalne p, .porady-techniczne p{
+    font-size: 18px;
+}
+
+#tytul
+{
+    font-size: 40px;
+}
+
+.cialo-home
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

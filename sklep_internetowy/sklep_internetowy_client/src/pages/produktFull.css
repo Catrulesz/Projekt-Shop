@@ -1,0 +1,122 @@
+.bodyfull {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tytul {
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .img {
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .parametry {
+    width: 30%;
+  }
+  
+  .parametry p {
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  .footer {
+    align-self: flex-end;
+    margin-top: auto;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  .koszyk {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 25%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    min-height: 500px;
+    max-height: 600px;
+    padding: 5px;
+  }
+  
+  #ilosc {
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 6%;
+    font-size: 18px;
+    margin-top: 5%;
+  }
+  
+  #dodaj-do-koszyka {
+    background-color: #24a624;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 15%;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  
+  #dodaj-do-koszyka:hover {
+    background-color: #1c7b1c;
+  }
+  
+  .cena {
+    display: block;
+    margin-top: 30px;
+    font-size: 60px;
+  }
+  
+  #kup-teraz {
+    background-color: #24a624;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0%;
+    height: 15%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #kup-teraz:hover {
+    background-color: #1c7b1c;
+  }
+  
+  #cofnij {
+    position: absolute;
+    left: 0;
+  }
+  
+  #cofnij a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #cofnij a:hover {
+    background-color: rgb(14, 162, 211);
+  }
+  
+  .opis
+  {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+  }
